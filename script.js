@@ -50,3 +50,14 @@ const ageMital = now - 2018
 
 console.log(ageJonas, ageMital)
 
+
+const age = '18';
+if (age == 18) {
+    console.log("compareing string with number with equal sign");
+} else {
+    console.log("compareing string with number with triple equal");
+}
+
+const storeData = prompt('Enter a number');
+console.log(storeData);
+console.log(typeof storeData);
